@@ -1,0 +1,419 @@
+# //  ModelSim SE-64 10.7a Mar 26 2018Linux 3.10.0-862.14.4.el7.x86_64
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim E 
+# Start time: 15:23:54 on Mar 23,2019
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(673): (vopt-2685) [TFMPC] - Too few port connections for '\gray_reg[0] '.  Expected 5, found 4.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(673): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(677): (vopt-2685) [TFMPC] - Too few port connections for '\gray_reg[1] '.  Expected 5, found 4.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(677): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(681): (vopt-2685) [TFMPC] - Too few port connections for '\gray_reg[2] '.  Expected 5, found 4.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(681): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(685): (vopt-2685) [TFMPC] - Too few port connections for '\gray_reg[3] '.  Expected 5, found 4.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(685): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(689): (vopt-2685) [TFMPC] - Too few port connections for '\gray_reg[4] '.  Expected 5, found 4.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(689): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(693): (vopt-2685) [TFMPC] - Too few port connections for '\gray_reg[5] '.  Expected 5, found 4.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(693): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(697): (vopt-2685) [TFMPC] - Too few port connections for '\gray_reg[6] '.  Expected 5, found 4.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(697): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(701): (vopt-2685) [TFMPC] - Too few port connections for '\gray_reg[7] '.  Expected 5, found 4.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(701): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(782): (vopt-2685) [TFMPC] - Too few port connections for 'add_66'.  Expected 5, found 4.
+# ** Warning: ../BE_045/results/verilog/rgb2gray.final.v(782): (vopt-2718) [TFMPC] - Missing connection for port 'CO'.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.e(a)#1
+# Loading work.rgb2gray(fast)
+# Loading work.OAI21_X1(fast)
+# Loading work.AOI21_X1(fast)
+# Loading work.CLKBUF_X2(fast)
+# Loading work.INV_X1(fast)
+# Loading work.AND2_X1(fast)
+# Loading work.DFFR_X1(fast)
+# Loading work.OAI222_X1(fast)
+# Loading work.BUF_X1(fast)
+# Loading work.NAND2_X1(fast)
+# Loading work.NOR2_X1(fast)
+# Loading work.XNOR2_X1(fast)
+# Loading work.XOR2_X1(fast)
+# Loading work.AOI21_X2(fast)
+# Loading work.OR2_X2(fast)
+# Loading work.NAND3_X1(fast)
+# Loading work.NOR4_X1(fast)
+# Loading work.NAND2_X2(fast)
+# Loading work.INV_X2(fast)
+# Loading work.OR2_X1(fast)
+# Loading work.OAI211_X1(fast)
+# Loading work.AND3_X1(fast)
+# Loading work.NAND4_X1(fast)
+# Loading work.OAI33_X1(fast)
+# Loading work.NOR3_X1(fast)
+# Loading work.AOI22_X1(fast)
+# Loading work.OAI22_X1(fast)
+source scripts/generate_vcd.tcl
+# End time: 15:27:04 on Mar 23,2019, Elapsed time: 0:03:10
+# Errors: 0, Warnings: 18
+# vsim E 
+# Start time: 15:27:04 on Mar 23,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.e(a)#1
+# Loading work.rgb2gray(fast)
+# Loading work.OAI21_X1(fast)
+# Loading work.AOI21_X1(fast)
+# Loading work.CLKBUF_X2(fast)
+# Loading work.INV_X1(fast)
+# Loading work.AND2_X1(fast)
+# Loading work.DFFR_X1(fast)
+# Loading work.OAI222_X1(fast)
+# Loading work.BUF_X1(fast)
+# Loading work.NAND2_X1(fast)
+# Loading work.NOR2_X1(fast)
+# Loading work.XNOR2_X1(fast)
+# Loading work.XOR2_X1(fast)
+# Loading work.AOI21_X2(fast)
+# Loading work.OR2_X2(fast)
+# Loading work.NAND3_X1(fast)
+# Loading work.NOR4_X1(fast)
+# Loading work.NAND2_X2(fast)
+# Loading work.INV_X2(fast)
+# Loading work.OR2_X1(fast)
+# Loading work.OAI211_X1(fast)
+# Loading work.AND3_X1(fast)
+# Loading work.NAND4_X1(fast)
+# Loading work.OAI33_X1(fast)
+# Loading work.NOR3_X1(fast)
+# Loading work.AOI22_X1(fast)
+# Loading work.OAI22_X1(fast)
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.rgb2gray(fast)
+# Loading work.OAI21_X1(fast)
+# Loading work.AOI21_X1(fast)
+# Loading work.CLKBUF_X2(fast)
+# Loading work.INV_X1(fast)
+# Loading work.AND2_X1(fast)
+# Loading work.DFFR_X1(fast)
+# Loading work.OAI222_X1(fast)
+# Loading work.BUF_X1(fast)
+# Loading work.NAND2_X1(fast)
+# Loading work.NOR2_X1(fast)
+# Loading work.XNOR2_X1(fast)
+# Loading work.XOR2_X1(fast)
+# Loading work.AOI21_X2(fast)
+# Loading work.OR2_X2(fast)
+# Loading work.NAND3_X1(fast)
+# Loading work.NOR4_X1(fast)
+# Loading work.NAND2_X2(fast)
+# Loading work.INV_X2(fast)
+# Loading work.OR2_X1(fast)
+# Loading work.OAI211_X1(fast)
+# Loading work.AND3_X1(fast)
+# Loading work.NAND4_X1(fast)
+# Loading work.OAI33_X1(fast)
+# Loading work.NOR3_X1(fast)
+# Loading work.AOI22_X1(fast)
+# Loading work.OAI22_X1(fast)
+# VCD to SAIF translator version O-2018.06-SP5 Synopsys, Inc.
+# direct mapping VCD instance: e . uut
+# processing header of VCD file: rgb2gray.vcd
+# ignoring VCD module scope : UUT
+# Error: No VCD variables have been captured.
+# Check that -instance/-strip argument matches the hierarchy of the VCD file.
+# exiting...
+source scripts/generate_vcd.tcl
+# End time: 15:46:11 on Mar 23,2019, Elapsed time: 0:19:07
+# Errors: 1, Warnings: 0
+# vsim E 
+# Start time: 15:46:11 on Mar 23,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.e(a)#1
+# Loading work.rgb2gray(fast)
+# Loading work.OAI21_X1(fast)
+# Loading work.AOI21_X1(fast)
+# Loading work.CLKBUF_X2(fast)
+# Loading work.INV_X1(fast)
+# Loading work.AND2_X1(fast)
+# Loading work.DFFR_X1(fast)
+# Loading work.OAI222_X1(fast)
+# Loading work.BUF_X1(fast)
+# Loading work.NAND2_X1(fast)
+# Loading work.NOR2_X1(fast)
+# Loading work.XNOR2_X1(fast)
+# Loading work.XOR2_X1(fast)
+# Loading work.AOI21_X2(fast)
+# Loading work.OR2_X2(fast)
+# Loading work.NAND3_X1(fast)
+# Loading work.NOR4_X1(fast)
+# Loading work.NAND2_X2(fast)
+# Loading work.INV_X2(fast)
+# Loading work.OR2_X1(fast)
+# Loading work.OAI211_X1(fast)
+# Loading work.AND3_X1(fast)
+# Loading work.NAND4_X1(fast)
+# Loading work.OAI33_X1(fast)
+# Loading work.NOR3_X1(fast)
+# Loading work.AOI22_X1(fast)
+# Loading work.OAI22_X1(fast)
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.rgb2gray(fast)
+# Loading work.OAI21_X1(fast)
+# Loading work.AOI21_X1(fast)
+# Loading work.CLKBUF_X2(fast)
+# Loading work.INV_X1(fast)
+# Loading work.AND2_X1(fast)
+# Loading work.DFFR_X1(fast)
+# Loading work.OAI222_X1(fast)
+# Loading work.BUF_X1(fast)
+# Loading work.NAND2_X1(fast)
+# Loading work.NOR2_X1(fast)
+# Loading work.XNOR2_X1(fast)
+# Loading work.XOR2_X1(fast)
+# Loading work.AOI21_X2(fast)
+# Loading work.OR2_X2(fast)
+# Loading work.NAND3_X1(fast)
+# Loading work.NOR4_X1(fast)
+# Loading work.NAND2_X2(fast)
+# Loading work.INV_X2(fast)
+# Loading work.OR2_X1(fast)
+# Loading work.OAI211_X1(fast)
+# Loading work.AND3_X1(fast)
+# Loading work.NAND4_X1(fast)
+# Loading work.OAI33_X1(fast)
+# Loading work.NOR3_X1(fast)
+# Loading work.AOI22_X1(fast)
+# Loading work.OAI22_X1(fast)
+vcd2saif -input rgb2gray.vcd -output rgb2gray.vcd.saif -instance /e/uut
+# VCD to SAIF translator version O-2018.06-SP5 Synopsys, Inc.
+# direct mapping VCD instance: e . uut
+# processing header of VCD file: rgb2gray.vcd
+# ignoring VCD module scope : UUT
+# Error: No VCD variables have been captured.
+# Check that -instance/-strip argument matches the hierarchy of the VCD file.
+# exiting...
+source scripts/generate_vcd.tcl
+# End time: 15:53:08 on Mar 23,2019, Elapsed time: 0:06:57
+# Errors: 1, Warnings: 0
+# vsim E 
+# Start time: 15:53:08 on Mar 23,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.e(a)#1
+# Loading work.rgb2gray(fast)
+# Loading work.OAI21_X1(fast)
+# Loading work.AOI21_X1(fast)
+# Loading work.CLKBUF_X2(fast)
+# Loading work.INV_X1(fast)
+# Loading work.AND2_X1(fast)
+# Loading work.DFFR_X1(fast)
+# Loading work.OAI222_X1(fast)
+# Loading work.BUF_X1(fast)
+# Loading work.NAND2_X1(fast)
+# Loading work.NOR2_X1(fast)
+# Loading work.XNOR2_X1(fast)
+# Loading work.XOR2_X1(fast)
+# Loading work.AOI21_X2(fast)
+# Loading work.OR2_X2(fast)
+# Loading work.NAND3_X1(fast)
+# Loading work.NOR4_X1(fast)
+# Loading work.NAND2_X2(fast)
+# Loading work.INV_X2(fast)
+# Loading work.OR2_X1(fast)
+# Loading work.OAI211_X1(fast)
+# Loading work.AND3_X1(fast)
+# Loading work.NAND4_X1(fast)
+# Loading work.OAI33_X1(fast)
+# Loading work.NOR3_X1(fast)
+# Loading work.AOI22_X1(fast)
+# Loading work.OAI22_X1(fast)
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.rgb2gray(fast)
+# Loading work.OAI21_X1(fast)
+# Loading work.AOI21_X1(fast)
+# Loading work.CLKBUF_X2(fast)
+# Loading work.INV_X1(fast)
+# Loading work.AND2_X1(fast)
+# Loading work.DFFR_X1(fast)
+# Loading work.OAI222_X1(fast)
+# Loading work.BUF_X1(fast)
+# Loading work.NAND2_X1(fast)
+# Loading work.NOR2_X1(fast)
+# Loading work.XNOR2_X1(fast)
+# Loading work.XOR2_X1(fast)
+# Loading work.AOI21_X2(fast)
+# Loading work.OR2_X2(fast)
+# Loading work.NAND3_X1(fast)
+# Loading work.NOR4_X1(fast)
+# Loading work.NAND2_X2(fast)
+# Loading work.INV_X2(fast)
+# Loading work.OR2_X1(fast)
+# Loading work.OAI211_X1(fast)
+# Loading work.AND3_X1(fast)
+# Loading work.NAND4_X1(fast)
+# Loading work.OAI33_X1(fast)
+# Loading work.NOR3_X1(fast)
+# Loading work.AOI22_X1(fast)
+# Loading work.OAI22_X1(fast)
+vcd2saif -input rgb2gray.vcd -output rgb2gray.vcd.saif -instance /e/uut
+# VCD to SAIF translator version O-2018.06-SP5 Synopsys, Inc.
+# direct mapping VCD instance: e . uut
+# processing header of VCD file: rgb2gray.vcd
+# ignoring VCD module scope : UUT
+# Error: No VCD variables have been captured.
+# Check that -instance/-strip argument matches the hierarchy of the VCD file.
+# exiting...
+vcd2saif rgb2gray.vcd
+# VCD to SAIF translator version O-2018.06-SP5 Synopsys, Inc.
+# Error: cannot parse arguments from: "rgb2gray.vcd"
+#        use vcd2saif -help for usage information
+vcd2saif -help
+# VCD to SAIF translator version O-2018.06-SP5 Synopsys, Inc.
+# Usage: vcd2saif -help
+#        vcd2saif -input vcd_file [-pipe command] -output bsaif [-32|-64]
+#                 [[-instance path] ...]
+#                 [-format lang] [-testbench lang]
+#                 [-verilog_instance path] [-vhdl_instance path]
+#                 [-no_div] [-keep_leading_backslash]
+#                 [[-time start stop] ...]
+# 
+#   -help           Display this usage message.
+#   -input vcd_file Specify vcd_file as the input VCD file. When the input
+#                   file has extension .gz or .Z, gunzip or uncompress is
+#                   invoked. When the extension is .vpd or .fsdb, vpd2vcd or
+#                   fsdb2vcd is invoked.
+#   -pipe command   The -pipe command option specifies a shell command which
+#                   is used to generate the VCD file file_name. This option
+#                   will invoke the command and directly pipe the output
+#                   VCD file to vcd2saif.
+#   -output bsaif   Specify bsaif as the output backward SAIF file. When the
+#                   file has extension .gz, the output file will be in gzip
+#                   format.
+#   -32|-64          Specify to use either 32 bit or 64 bit executable.
+#   -instance path  In general path is the absolute path of the design instance
+#                   as instantiated in your testbench.
+#                   For gate or RTL VCD files, all signals of the instance
+#                   are included in the backward SAIF file. When no instances
+#                   and no forward SAIF files are specified, all signals in
+#                   the VCD file are included.
+#   -format lang    Specify lang as the HDL language used for the
+#                   testbench and simulated designs.
+#                   lang can be "Verilog" or "VHDL", if omitted
+#                   the default is assumed to be "Verilog".
+#   -top path       Specify path as the top level path in the forward SAIF
+#                   file; if omitted, the default is assumed to be "top".
+#   -no_div         When parsing the instance paths (in the -top, -instance,
+#                   etc., arguments) assume that the hierarchical divider
+#                   is a white space. When calling vcd2saif from your command
+#                   shell with the -no_div option, path name arguments need
+#                   to be enclosed in double quotes.
+#   -time           Specify the time window for SAIF generation. Multiple
+#                   time windows can be specified
+# 
+# The following arguments are applicable only to VCD files generated
+# using mixed-language simulation:
+#   -testbench lang Specify lang as the HDL language used for the
+#                   testbench. lang can be "Verilog" or "VHDL", if omitted
+#                   the default is assumed to be "Verilog".
+#   -verilog_instance path    Specify that the given instance path is a
+#                   Verilog language design.
+#   -vhdl_instance path       Specify that the given instance path is a
+#                   VHDL language design.
+# child process exited abnormally
+vcd2saif -input rgb2gray.vcd -output rgb2gray.vcd.saif 
+# VCD to SAIF translator version O-2018.06-SP5 Synopsys, Inc.
+# direct mapping all VCD instances
+# processing header of VCD file: rgb2gray.vcd
+# processing value changes of VCD file: rgb2gray.vcd
+# generating backward SAIF file: rgb2gray.vcd.saif
+source scripts/generate_vcd.tcl
+# End time: 16:00:26 on Mar 23,2019, Elapsed time: 0:07:18
+# Errors: 3, Warnings: 0
+# vsim E 
+# Start time: 16:00:26 on Mar 23,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.e(a)#1
+# Loading work.rgb2gray(fast)
+# Loading work.OAI21_X1(fast)
+# Loading work.AOI21_X1(fast)
+# Loading work.CLKBUF_X2(fast)
+# Loading work.INV_X1(fast)
+# Loading work.AND2_X1(fast)
+# Loading work.DFFR_X1(fast)
+# Loading work.OAI222_X1(fast)
+# Loading work.BUF_X1(fast)
+# Loading work.NAND2_X1(fast)
+# Loading work.NOR2_X1(fast)
+# Loading work.XNOR2_X1(fast)
+# Loading work.XOR2_X1(fast)
+# Loading work.AOI21_X2(fast)
+# Loading work.OR2_X2(fast)
+# Loading work.NAND3_X1(fast)
+# Loading work.NOR4_X1(fast)
+# Loading work.NAND2_X2(fast)
+# Loading work.INV_X2(fast)
+# Loading work.OR2_X1(fast)
+# Loading work.OAI211_X1(fast)
+# Loading work.AND3_X1(fast)
+# Loading work.NAND4_X1(fast)
+# Loading work.OAI33_X1(fast)
+# Loading work.NOR3_X1(fast)
+# Loading work.AOI22_X1(fast)
+# Loading work.OAI22_X1(fast)
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.rgb2gray(fast)
+# Loading work.OAI21_X1(fast)
+# Loading work.AOI21_X1(fast)
+# Loading work.CLKBUF_X2(fast)
+# Loading work.INV_X1(fast)
+# Loading work.AND2_X1(fast)
+# Loading work.DFFR_X1(fast)
+# Loading work.OAI222_X1(fast)
+# Loading work.BUF_X1(fast)
+# Loading work.NAND2_X1(fast)
+# Loading work.NOR2_X1(fast)
+# Loading work.XNOR2_X1(fast)
+# Loading work.XOR2_X1(fast)
+# Loading work.AOI21_X2(fast)
+# Loading work.OR2_X2(fast)
+# Loading work.NAND3_X1(fast)
+# Loading work.NOR4_X1(fast)
+# Loading work.NAND2_X2(fast)
+# Loading work.INV_X2(fast)
+# Loading work.OR2_X1(fast)
+# Loading work.OAI211_X1(fast)
+# Loading work.AND3_X1(fast)
+# Loading work.NAND4_X1(fast)
+# Loading work.OAI33_X1(fast)
+# Loading work.NOR3_X1(fast)
+# Loading work.AOI22_X1(fast)
+# Loading work.OAI22_X1(fast)
+# VCD to SAIF translator version O-2018.06-SP5 Synopsys, Inc.
+# direct mapping all VCD instances
+# processing header of VCD file: rgb2gray.vcd
+# processing value changes of VCD file: rgb2gray.vcd
+# generating backward SAIF file: rgb2gray.vcd.saif
+quit
+# End time: 16:01:55 on Mar 23,2019, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 0
